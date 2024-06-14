@@ -1,0 +1,41 @@
+Spring:
+1. Spring is an open-source lightweight framework widely used to develop enterprise applications.
+2. The most important feature of the Spring Framework is dependency injection.
+3. It helps to create a loosely coupled application.
+4. To run the Spring application, we need to set the server explicitly.
+5. To run the Spring application, a deployment descriptor is required.
+6. To create a Spring application, the developers write lots of code.
+7. It doesn’t provide support for the in-memory database.
+8. Developers need to write boilerplate code for smaller tasks.
+9. Developers have to define dependencies manually in the pom.xml file.
+
+Spring Boot:
+
+1. Spring Boot is built on top of the conventional spring framework, widely used to develop REST APIs.
+2. The most important feature of the Spring Boot is Autoconfiguration.
+3. It helps to create a stand-alone application.
+4. Spring Boot provides embedded servers such as Tomcat and Jetty etc.
+5. There is no requirement for a deployment descriptor.
+6. It reduces the lines of code.
+7. It provides support for the in-memory database such as H2
+8. In Spring Boot, there is reduction in boilerplate code.
+
+
+
+
+SOAP API:
+1. Relies on SOAP (Simple Object Access Protocol)
+2. Transports data in standard XML format.
+3. Because it is XML based and relies on SOAP, it works with WSDL
+4. Works over HTTP, HTTPS, SMTP, XMPP
+5. Highly structured/typed
+6. Designed with large enterprise applications in mind
+
+REST API:
+
+1. Relies on REST (Representational State Transfer) architecture using HTTP.
+2. Generally transports data in JSON. It is based on URI. Because REST follows stateless model, REST does not enforces message format as XML or JSON etc.
+3. It works with GET, POST, PUT, DELETE
+4. Works over HTTP and HTTPS
+5. Less structured -> less bulky data
+6. Designed with mobile devices in mind
